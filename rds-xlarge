@@ -1,0 +1,185 @@
+DBPARAMETER allow-suspicious-udfs engine-default boolean static false 
+DBPARAMETER auto_increment_increment engine-default integer dynamic true 
+DBPARAMETER auto_increment_offset engine-default integer dynamic true 
+DBPARAMETER automatic_sp_privileges engine-default boolean dynamic true 
+DBPARAMETER back_log engine-default integer static true 
+DBPARAMETER basedir /rdsdbbin/mysql system string static false 
+DBPARAMETER binlog_cache_size 32768 system integer dynamic true 
+DBPARAMETER binlog_format MIXED system string dynamic false 
+DBPARAMETER bulk_insert_buffer_size engine-default integer dynamic true 
+DBPARAMETER character-set-client-handshake 0 user boolean static true 
+DBPARAMETER character_set_client utf8 user string dynamic true 
+DBPARAMETER character_set_connection utf8 user string dynamic true 
+DBPARAMETER character_set_database utf8 user string dynamic true 
+DBPARAMETER character_set_filesystem utf8 user string dynamic true 
+DBPARAMETER character_set_results utf8 user string dynamic true 
+DBPARAMETER character_set_server utf8 user string dynamic true 
+DBPARAMETER collation_connection utf8_general_ci user string dynamic true 
+DBPARAMETER collation_server utf8_general_ci user string dynamic true 
+DBPARAMETER completion_type engine-default integer dynamic true 
+DBPARAMETER concurrent_insert engine-default integer dynamic true 
+DBPARAMETER connect_timeout engine-default integer dynamic true 
+DBPARAMETER datadir /rdsdbdata/db/ system string static false 
+DBPARAMETER default_storage_engine InnoDB system string dynamic false 
+DBPARAMETER default_time_zone engine-default string static false 
+DBPARAMETER default_week_format engine-default integer dynamic true 
+DBPARAMETER delay_key_write engine-default string dynamic true 
+DBPARAMETER delayed_insert_limit engine-default integer dynamic true 
+DBPARAMETER delayed_insert_timeout engine-default integer dynamic true 
+DBPARAMETER delayed_queue_size engine-default integer dynamic true 
+DBPARAMETER div_precision_increment engine-default integer dynamic true 
+DBPARAMETER event_scheduler engine-default string dynamic true 
+DBPARAMETER flush engine-default boolean dynamic false 
+DBPARAMETER flush_time engine-default integer dynamic true 
+DBPARAMETER ft_boolean_syntax engine-default string dynamic false 
+DBPARAMETER ft_max_word_len engine-default integer static true 
+DBPARAMETER ft_min_word_len 1 user integer static true 
+DBPARAMETER ft_query_expansion_limit engine-default integer static true 
+DBPARAMETER ft_stopword_file engine-default string static true 
+DBPARAMETER general_log 0 user boolean dynamic true 
+DBPARAMETER group_concat_max_len engine-default integer dynamic true 
+DBPARAMETER ignore_builtin_innodb 1 system boolean static false 
+DBPARAMETER init_connect engine-default string dynamic true 
+DBPARAMETER innodb_adaptive_flushing engine-default boolean dynamic true 
+DBPARAMETER innodb_adaptive_hash_index engine-default boolean static true 
+DBPARAMETER innodb_additional_mem_pool_size 2097152 system integer static true 
+DBPARAMETER innodb_autoextend_increment engine-default integer dynamic true 
+DBPARAMETER innodb_autoinc_lock_mode engine-default integer static true 
+DBPARAMETER innodb_buffer_pool_size {DBInstanceClassMemory*3/4} system integer static true 
+DBPARAMETER innodb_change_buffering engine-default string dynamic true 
+DBPARAMETER innodb_commit_concurrency engine-default integer static true 
+DBPARAMETER innodb_concurrency_tickets engine-default integer dynamic true 
+DBPARAMETER innodb_data_home_dir /rdsdbdata/db/innodb system string static false 
+DBPARAMETER innodb_file_format engine-default string dynamic true 
+DBPARAMETER innodb_file_per_table 1 system boolean static true 
+DBPARAMETER innodb_flush_log_at_trx_commit engine-default integer dynamic true 
+DBPARAMETER innodb_flush_method O_DIRECT system string static false 
+DBPARAMETER innodb_io_capacity engine-default integer dynamic true 
+DBPARAMETER innodb_lock_wait_timeout 180 user integer static true 
+DBPARAMETER innodb_locks_unsafe_for_binlog engine-default boolean static false 
+DBPARAMETER innodb_log_buffer_size 8388608 system integer static true 
+DBPARAMETER innodb_log_file_size 134217728 system integer static false 
+DBPARAMETER innodb_log_group_home_dir /rdsdbdata/log/innodb system string static false 
+DBPARAMETER innodb_max_dirty_pages_pct engine-default integer dynamic true 
+DBPARAMETER innodb_max_purge_lag engine-default integer dynamic true 
+DBPARAMETER innodb_old_blocks_pct engine-default integer dynamic true 
+DBPARAMETER innodb_old_blocks_time engine-default integer dynamic true 
+DBPARAMETER innodb_open_files engine-default integer static true 
+DBPARAMETER innodb_random_read_ahead engine-default boolean dynamic true 5.1.61
+DBPARAMETER innodb_read_ahead_threshold engine-default integer dynamic true 
+DBPARAMETER innodb_read_io_threads engine-default integer static true 
+DBPARAMETER innodb_replication_delay engine-default integer dynamic true 
+DBPARAMETER innodb_rollback_on_timeout engine-default boolean static true 
+DBPARAMETER innodb_spin_wait_delay engine-default integer dynamic true 
+DBPARAMETER innodb_stats_on_metadata engine-default boolean static true 
+DBPARAMETER innodb_stats_sample_pages engine-default integer dynamic true 
+DBPARAMETER innodb_strict_mode engine-default boolean dynamic true 
+DBPARAMETER innodb_support_xa engine-default boolean dynamic true 
+DBPARAMETER innodb_sync_spin_loops engine-default integer dynamic true 
+DBPARAMETER innodb_table_locks engine-default boolean dynamic true 
+DBPARAMETER innodb_thread_concurrency engine-default integer dynamic true 
+DBPARAMETER innodb_thread_sleep_delay engine-default integer dynamic true 
+DBPARAMETER innodb_use_legacy_cardinality_algorithm engine-default boolean dynamic false 
+DBPARAMETER innodb_use_sys_malloc engine-default boolean static true 
+DBPARAMETER innodb_write_io_threads engine-default integer static true 
+DBPARAMETER interactive_timeout engine-default integer dynamic true 
+DBPARAMETER join_buffer_size 256000 user integer dynamic true 
+DBPARAMETER keep_files_on_create engine-default boolean dynamic true 
+DBPARAMETER key_buffer_size 6000000000 user integer dynamic true 
+DBPARAMETER key_cache_age_threshold engine-default integer dynamic true 
+DBPARAMETER key_cache_block_size engine-default integer dynamic true 
+DBPARAMETER key_cache_division_limit engine-default integer dynamic true 
+DBPARAMETER language /rdsdbbin/mysql/share/mysql/english/ system string static false 
+DBPARAMETER lc_time_names engine-default string dynamic true 
+DBPARAMETER local_infile 1 system boolean dynamic true 
+DBPARAMETER log-bin /rdsdbdata/log/binlog/mysql-bin-changelog system string static false 
+DBPARAMETER log_bin_trust_function_creators engine-default boolean dynamic true 
+DBPARAMETER log_error /rdsdbdata/log/error/mysql-error.log system string static false 
+DBPARAMETER log_output TABLE system string dynamic false 
+DBPARAMETER log_queries_not_using_indexes engine-default boolean dynamic true 
+DBPARAMETER log_slave_updates engine-default boolean static true 
+DBPARAMETER log_warnings engine-default integer dynamic true 
+DBPARAMETER long_query_time 1 user integer dynamic true 
+DBPARAMETER low_priority_updates engine-default boolean dynamic true 
+DBPARAMETER lower_case_table_names engine-default integer static true 
+DBPARAMETER max_allowed_packet 8192000 user integer dynamic true 
+DBPARAMETER max_binlog_cache_size engine-default integer dynamic true 
+DBPARAMETER max_binlog_size 134217728 system integer dynamic false 
+DBPARAMETER max_connect_errors 10000 user integer dynamic true 
+DBPARAMETER max_connections {DBInstanceClassMemory/12582880} system integer dynamic true 
+DBPARAMETER max_delayed_threads engine-default integer dynamic true 
+DBPARAMETER max_error_count engine-default integer dynamic true 
+DBPARAMETER max_heap_table_size engine-default integer dynamic true 
+DBPARAMETER max_insert_delayed_threads engine-default integer dynamic true 
+DBPARAMETER max_join_size engine-default integer dynamic true 
+DBPARAMETER max_length_for_sort_data engine-default integer dynamic true 
+DBPARAMETER max_prepared_stmt_count engine-default integer dynamic true 
+DBPARAMETER max_seeks_for_key engine-default integer dynamic true 
+DBPARAMETER max_sort_length engine-default integer dynamic true 
+DBPARAMETER max_sp_recursion_depth engine-default integer dynamic true 
+DBPARAMETER max_tmp_tables engine-default integer dynamic true 
+DBPARAMETER max_user_connections engine-default integer dynamic true 
+DBPARAMETER max_write_lock_count engine-default integer dynamic true 
+DBPARAMETER min_examined_row_limit engine-default integer dynamic true 
+DBPARAMETER myisam_data_pointer_size engine-default integer dynamic true 
+DBPARAMETER myisam_max_sort_file_size engine-default integer dynamic true 
+DBPARAMETER myisam_sort_buffer_size engine-default integer dynamic true 
+DBPARAMETER myisam_stats_method engine-default string dynamic true 
+DBPARAMETER myisam_use_mmap engine-default boolean dynamic true 
+DBPARAMETER net_buffer_length engine-default integer dynamic true 
+DBPARAMETER net_read_timeout engine-default integer dynamic true 
+DBPARAMETER net_retry_count engine-default integer dynamic true 
+DBPARAMETER net_write_timeout engine-default integer dynamic true 
+DBPARAMETER old-style-user-limits engine-default boolean static true 
+DBPARAMETER old_passwords engine-default boolean dynamic true 
+DBPARAMETER optimizer_prune_level engine-default boolean dynamic true 
+DBPARAMETER optimizer_search_depth engine-default integer dynamic true 
+DBPARAMETER optimizer_switch engine-default string dynamic true 
+DBPARAMETER pid_file /rdsdbdata/log/mysql-{EndPointPort}.pid system string static false 
+DBPARAMETER plugin-load innodb=ha_innodb_plugin.so;innodb_trx=ha_innodb_plugin.so;innodb_locks=ha_innodb_plugin.so;innodb_lock_waits=ha_innodb_plugin.so;innodb_cmp=ha_innodb_plugin.so;innodb_cmp_reset=ha_innodb_plugin.so;innodb_cmpmem=ha_innodb_plugin.so;innodb_cmpmem_reset=ha_innodb_plugin.so system string static false 
+DBPARAMETER plugin_dir /rdsdbbin/mysql/lib/mysql/plugin system string static false 
+DBPARAMETER port {EndPointPort} system integer static false 
+DBPARAMETER preload_buffer_size engine-default integer dynamic true 
+DBPARAMETER profiling_history_size engine-default integer dynamic true 
+DBPARAMETER query_alloc_block_size engine-default integer dynamic true 
+DBPARAMETER query_cache_limit 2000000 user integer dynamic true 
+DBPARAMETER query_cache_min_res_unit 8192 user integer dynamic true 
+DBPARAMETER query_cache_size 512000000 user integer dynamic true 
+DBPARAMETER query_cache_type 1 user integer static true 
+DBPARAMETER query_cache_wlock_invalidate engine-default boolean dynamic true 
+DBPARAMETER query_prealloc_size engine-default integer dynamic true 
+DBPARAMETER range_alloc_block_size engine-default integer dynamic true 
+DBPARAMETER read_buffer_size 2000000 user integer dynamic true 
+DBPARAMETER read_only {TrueIfReplica} engine-default boolean dynamic true 
+DBPARAMETER read_rnd_buffer_size 1000000 user integer dynamic true 
+DBPARAMETER relay-log /rdsdbdata/log/relaylog/relaylog system string static false 
+DBPARAMETER safe-user-create engine-default boolean static true 
+DBPARAMETER secure_auth engine-default boolean dynamic true 
+DBPARAMETER secure_file_priv /tmp system string static false 
+DBPARAMETER server_id {ServerId} system integer dynamic false 
+DBPARAMETER skip-character-set-client-handshake engine-default boolean static true 
+DBPARAMETER skip_external_locking engine-default boolean static false 
+DBPARAMETER skip_name_resolve engine-default boolean static true 5.1.57
+DBPARAMETER skip_show_database engine-default boolean static false 
+DBPARAMETER slow_launch_time engine-default integer dynamic true 
+DBPARAMETER slow_query_log 1 user boolean dynamic true 
+DBPARAMETER socket /tmp/mysql.sock system string static false 
+DBPARAMETER sort_buffer_size 128000000 user integer dynamic true 
+DBPARAMETER sql_mode engine-default string dynamic true 
+DBPARAMETER sql_select_limit engine-default integer dynamic true 
+DBPARAMETER sync_binlog engine-default integer dynamic true 
+DBPARAMETER sync_frm engine-default boolean dynamic true 
+DBPARAMETER sysdate-is-now engine-default boolean static true 
+DBPARAMETER table_definition_cache engine-default integer dynamic true 
+DBPARAMETER table_open_cache 1024 user integer dynamic true 
+DBPARAMETER temp-pool engine-default boolean static true 
+DBPARAMETER thread_cache_size 310 user integer dynamic true 
+DBPARAMETER thread_stack 262144 engine-default integer static true 
+DBPARAMETER timed_mutexes engine-default boolean dynamic true 
+DBPARAMETER tmp_table_size 270000000 user integer dynamic true 
+DBPARAMETER tmpdir /rdsdbdata/tmp system string static false 
+DBPARAMETER transaction_alloc_block_size engine-default integer dynamic true 
+DBPARAMETER transaction_prealloc_size engine-default integer dynamic true 
+DBPARAMETER tx_isolation engine-default string dynamic true 
+DBPARAMETER updatable_views_with_limit engine-default boolean dynamic true 
+DBPARAMETER wait_timeout 240 user integer dynamic true 

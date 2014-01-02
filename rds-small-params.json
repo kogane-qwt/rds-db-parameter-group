@@ -1,0 +1,82 @@
+[
+  {
+    "ParameterName" : "character-set-client-handshake",
+    "ParameterValue" : "0",
+    "ApplyMethod" : "pending-reboot"
+  },
+  {
+    "ParameterName" : "character_set_client",
+    "ParameterValue" : "utf8",
+    "ApplyMethod":"pending-reboot"
+  },
+  {
+    "ParameterName" : "character_set_connection",
+    "ParameterValue" : "utf8",
+    "ApplyMethod":"pending-reboot"
+  },
+  {
+    "ParameterName" : "character_set_database",
+    "ParameterValue" : "utf8",
+    "ApplyMethod":"pending-reboot"
+  },
+  {
+    "ParameterName" : "character_set_filesystem",
+    "ParameterValue" : "binary",
+    "ApplyMethod":"pending-reboot"
+  },
+  {
+    "ParameterName" : "character_set_results",
+    "ParameterValue" : "utf8",
+    "ApplyMethod":"pending-reboot"
+  },
+  {
+    "ParameterName" : "character_set_server",
+    "ParameterValue" : "utf8",
+    "ApplyMethod":"pending-reboot"
+  },
+  {
+    "ParameterName" : "collation_connection",
+    "ParameterValue" : "utf8_general_ci",
+    "ApplyMethod":"pending-reboot"
+  },
+  {
+    "ParameterName" : "ft_min_word_len",
+    "ParameterValue" : "1",
+    "ApplyMethod":"pending-reboot"
+  },
+  {
+    "ParameterName" : "innodb_ft_min_token_size",
+    "ParameterValue" : "1",
+    "ApplyMethod":"pending-reboot"
+  },
+  {
+    "ParameterName" : "long_query_time",
+    "ParameterValue" : "1",
+    "ApplyMethod":"pending-reboot"
+  },
+  {
+    "ParameterName" : "query_cache_size",
+    "ParameterValue" : "134217728",
+    "ApplyMethod":"pending-reboot"
+  },
+  {
+    "ParameterName" : "query_cache_type",
+    "ParameterValue" : "1",
+    "ApplyMethod":"pending-reboot"
+  },
+  {
+    "ParameterName" : "skip-character-set-client-handshake",
+    "ParameterValue" : "1",
+    "ApplyMethod":"pending-reboot"
+  },
+  {
+    "ParameterName" : "slow_query_log",
+    "ParameterValue" : "1",
+    "ApplyMethod":"pending-reboot"
+  },
+  {
+    "ParameterName" : "wait_timeout",
+    "ParameterValue" : "12",
+    "ApplyMethod":"pending-reboot"
+  }
+]
